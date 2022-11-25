@@ -1,4 +1,4 @@
-#Experimental Analysis of Type Ib SN 2019yvr
+Experimental Analysis of Type Ib SN 2019yvr:
 
 Materials relevant to research conducted on the experimental analysis of type Ib SN 2019yvr in 2021. A humble addition to the efforts of many talented researchers' work which culminated in the paper available here: https://eprints.whiterose.ac.uk/184286/7/stab3768.pdf & here: https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.3701S/abstract.
 
