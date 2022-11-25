@@ -1,0 +1,77 @@
+! inlist project
+
+&star_job
+  ! see star/defaults/star_job.defaults
+
+  ! begin with a pre-main sequence model
+  ! create_pre_main_sequence_model = .true.
+
+  ! save a model at the end of the run
+  ! save_model_when_terminate = .true.
+  ! save_model_filename = 3.5M0.014Z1.5AMS.mod
+
+    load_saved_model = .true.
+    saved_model_name = 2M0.014ZpreMS.mod
+
+  ! display on-screen plots
+  ! pgstar_flag = .true.
+
+  ! set_rate_c12ag = CF88
+  ! set_rate_3a = 'jina reaclib'
+
+/ ! end of star_job namelist
+
+
+&eos
+  ! eos options
+  ! see eos/defaults/eos.defaults
+
+/ ! end of eos namelist
+
+
+&kap
+  ! kap options
+  ! see kap/defaults/kap.defaults
+  use_Type2_opacities = .true.
+  Zbase = 0.02
+
+/ ! end of kap namelist
+
+
+&controls
+  ! see star/defaults/controls.defaults
+
+  ! starting specifications / central parameters
+    initial_mass = 2
+    initial_z = 0.014
+    initial_y = 0.986
+    mixing_length_alpha = 2
+    use_Ledoux_criterion = .true.
+    alpha_semiconvection = 0.01
+ 
+  ! resolution test
+    mesh_delta_coeff = 1d0
+    time_delta_coeff = 1d0
+    varcontrol_target = 1d-4
+
+  ! options for energy conservation (see MESA V, Section 3)
+     use_dedt_form_of_energy_eqn = .true.
+     use_gold_tolerances = .true.
+
+  ! op parameter check
+  ! op_split_burn = .true.
+  ! op_split_burn_min_T = 1d8
+
+
+  ! stop when the star nears ZAMS (Lnuc/L > 0.99)
+  ! Lnuc_div_L_zams_limit = 0.99d0
+  ! stop_near_zams = .false.
+
+  ! stop when the center mass fraction of he4 drops below this limit
+  ! xa_central_lower_limit_species(1) = 'he4'
+  ! xa_central_lower_limit(1) = 1d-3
+  
+  write_header_frequency = 1
+
+
+/ ! end of controls namelist
