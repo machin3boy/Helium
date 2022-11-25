@@ -9,4 +9,4 @@ Large files relevant to the project, namely those which would sit in /Helium/pro
 all\_data\_files.zip - bafybeidbkejvmn76gmxdvcv2usr52tcxmuzqwvxa3szadsncklg4y4gkhm
 experiments.zip - bafybeibl55w5er6bkr2r7slc35vpys36jcvahryoilufqrgml7uxeykdie
 
-Please use an IPFS exlorer to download the above files.
+Please use an IPFS explorer to download the files above.
