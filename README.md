@@ -1,6 +1,7 @@
 # Experimental Analysis of Type Ib SN 2019yvr:
 
-Materials relevant to research conducted on the experimental analysis of type Ib supernova 2019yvr in 2021. A humble addition to the efforts of many talented researchers' work which culminated in the paper published in MNRAS available at the following two links.
+Materials relevant to research conducted on the experimental analysis of type Ib supernova 2019yvr in 2021. A humble addition to the efforts of many talented researchers' work which culminated in the paper published in the Monthly Notices of the Royal Astronomical Society, Volume 510, Issue 3, pp.3701-3715 available at the following two links.
+
 - https://eprints.whiterose.ac.uk/184286/7/stab3768.pdf
 - https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.3701S/abstract.
 
@@ -15,8 +16,6 @@ experiments.zip:
 > bafybeibl55w5er6bkr2r7slc35vpys36jcvahryoilufqrgml7uxeykdie
 
 Please use an IPFS explorer to download the files above.
-
-
 
 Paper abstract:
 
