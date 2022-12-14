@@ -15,7 +15,10 @@ all\_data\_files.zip:
 experiments.zip:
 > bafybeibl55w5er6bkr2r7slc35vpys36jcvahryoilufqrgml7uxeykdie
 
-Please use an IPFS explorer to download the files above.
+Please use an IPFS explorer to download the files above. (such as the following)
+
+- https://bafybeidbkejvmn76gmxdvcv2usr52tcxmuzqwvxa3szadsncklg4y4gkhm.ipfs.w3s.link/
+- https://bafybeibl55w5er6bkr2r7slc35vpys36jcvahryoilufqrgml7uxeykdie.ipfs.w3s.link/
 
 Paper abstract:
 
